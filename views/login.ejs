@@ -1,0 +1,29 @@
+<%- include ("./partials/header") %> 
+<%- include ("./partials/navbar") %>
+
+<%- include ("./partials/messages") %>
+     <!-- Contact Form Area -->
+   
+     <div class="container my-5" style ="margin:70px auto; width: 900px;">
+        <form action="/login" method="post">
+          <div class="text text-center my-4">
+            <h3>LOGIN</h3>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <input type="email" style="margin-bottom:20px" class="form-control" name="email" placeholder="Email">
+            </div>
+
+            <div class="col-lg-6">
+              <input type="password" style="margin-bottom:20px" class="form-control" name="password" placeholder="Password">
+            </div>
+          
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary btn-lg" style="width: 180px; margin:10px;">Login</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+<%- include ("./partials/footer") %>

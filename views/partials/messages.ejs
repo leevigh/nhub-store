@@ -1,0 +1,13 @@
+<div class="container my-5" style ="margin:10px auto; width: 500px; padding-top:150px;">
+   <% if(success_message && success_message.length > 0){ %>
+   <div class="alert alert-success text-center stay-small">
+     <strong><%= success_message %></strong>
+   </div> 
+<% } %>
+
+<% if(error_message && error_message.length > 0){ %>
+    <div class="alert alert-danger stay-small text-center">
+       <strong><%= error_message %></strong>
+    </div> 
+ <% } %>
+</div>
